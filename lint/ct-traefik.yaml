@@ -10,3 +10,5 @@ charts:
   - "charts/traefik-ingress"
 debug: true
 helm-extra-set-args: -f lint/traefik-test-values.yaml
+helm-extra-args: --timeout 900s
+
