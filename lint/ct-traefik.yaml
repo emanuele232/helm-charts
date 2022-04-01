@@ -9,4 +9,4 @@ check-version-increment: false
 charts:
   - "charts/traefik-ingress"
 debug: true
-helm-extra-args: -f lint/traefik-test-values.yaml
+helm-extra-set-args: -f lint/traefik-test-values.yaml
