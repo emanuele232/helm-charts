@@ -8,6 +8,7 @@ validate-yaml: true
 check-version-increment: false
 chart-dirs:
   - "charts"
-excluded-charts:
-  - "traefik-ingress"
+# excluded-charts:
+#   - "traefik-ingress"
 debug: true
+helm-extra-args: --timeout 900s
